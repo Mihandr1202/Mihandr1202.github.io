@@ -1,0 +1,340 @@
+nav {
+  width:960px;
+  margin: 0 auto;
+}
+
+nav:before {
+  content:'';
+  display:block;
+  height:50px;
+  width:100%;
+  background:#000;
+  position:absolute;
+  left:0;
+  z-index:-1;
+}
+
+ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+  position: relative;
+}
+
+ul li {
+  float:left;
+}
+
+ul li a {
+  color:#fff;
+  display:block;
+  height:50px;
+  padding:0 30px;
+  text-transform:uppercase;
+  text-decoration:none;
+  line-height:50px;
+  position: relative;
+}
+
+ul li a:hover {
+  background:#d34d43;
+}
+
+.WebMihandr {
+  position: relative;
+  color:#fff;
+  bottom: 60px;
+  width: 110px;
+  right: 400px;
+  text-align: left;
+}
+
+.GameNews {
+  position: relative;
+  color:#fff;
+  bottom: 85px;
+  width: 100px;
+  right: 400px;
+  text-align: left;
+}
+
+.ClassGame1 {
+  color:#fff;
+  height:50px;
+  padding:0 30px;
+  position:relative;
+  left: 250px;
+}
+
+.ClassGame2{
+  color:#fff;
+  height:50px;
+  padding:0 30px;
+  position:relative;
+  left: 250px;
+}
+
+.ClassGame3{
+  color:#fff;
+  height:50px;
+  padding:0 30px;
+  position:relative;
+  left: 250px;
+}
+
+.ClassGame4{
+  color:#fff;
+  height:50px;
+  padding:0 30px;
+  position:relative;
+  left: 250px;
+}
+
+.ClassGame5{
+  color:#fff;
+  height:50px;
+  padding:0 30px;
+  position:relative;
+  left: 250px;
+}
+
+.icon {
+  position: relative;
+  width: 50px;
+  height: 40px;
+  padding:0 20px;
+  bottom: 148px;
+  right: 480px;
+}
+
+.gameyear {
+  position: relative;
+  left: 35%;
+  width: 65%;
+  bottom: 50px;
+  color: #fff;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #34495e;
+}
+
+@media screen and (max-width: 1440px) {
+  ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+  position: relative;
+  left: 1px;
+}
+  .WebMihandr {
+  position: relative;
+  color:#fff;
+  bottom: 60px;
+  width: 110px;
+  right: 170px;
+  text-align: left;
+}
+
+.GameNews {
+  position: relative;
+  color:#fff;
+  bottom: 85px;
+  width: 100px;
+  right: 170px;
+}
+
+  .icon {
+  position: relative;
+  width: 50px;
+  height: 40px;
+  padding:0 20px;
+  bottom: 148px;
+  right: 250px;
+}
+}
+
+@media screen and (max-width: 1366px) {
+  ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+  position: relative;
+  left: 200px;
+}
+  .WebMihandr {
+  position: relative;
+  color:#fff;
+  bottom: 60px;
+  width: 110px;
+  right: 120px;
+  text-align: left;
+}
+
+.GameNews {
+  position: relative;
+  color:#fff;
+  bottom: 85px;
+  width: 100px;
+  right: 120px;
+}
+
+  .icon {
+  position: relative;
+  width: 50px;
+  height: 40px;
+  padding:0 20px;
+  bottom: 148px;
+  right: 200px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+  position: relative;
+  left: 300px;
+}
+  .WebMihandr {
+  position: relative;
+  color:#fff;
+  bottom: 60px;
+  width: 110px;
+  right: -45px;
+  text-align: left;
+}
+
+.GameNews {
+  position: relative;
+  color:#fff;
+  bottom: 85px;
+  width: 100px;
+  right: -45px;
+}
+
+  .icon {
+  position: relative;
+  width: 50px;
+  height: 40px;
+  padding:0 20px;
+  bottom: 148px;
+  right: 40px;
+}
+}
+
+@media screen and (max-width: 1280px) {
+  ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+  position: relative;
+  left: 200px;
+}
+  .WebMihandr {
+  position: relative;
+  color:#fff;
+  bottom: 60px;
+  width: 110px;
+  right: 80px;
+  text-align: left;
+}
+
+.GameNews {
+  position: relative;
+  color:#fff;
+  bottom: 85px;
+  width: 100px;
+  right: 80px;
+}
+
+  .icon {
+  position: relative;
+  width: 50px;
+  height: 40px;
+  padding:0 20px;
+  bottom: 148px;
+  right: 160px;
+}
+}
+
+@media screen and (max-width: 720px) {
+  ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+  position: relative;
+  left: 300px;
+}
+  .WebMihandr {
+  position: relative;
+  color:#fff;
+  bottom: 60px;
+  width: 110px;
+  right: -80px;
+  text-align: left;
+}
+
+.GameNews {
+  position: relative;
+  color:#fff;
+  bottom: 85px;
+  width: 100px;
+  right: -80px;
+}
+
+  .icon {
+  position: relative;
+  width: 50px;
+  height: 40px;
+  padding:0 20px;
+  bottom: 148px;
+  right: 1px;
+}
+}
+
+@media screen and (max-width: 1080px) {
+  ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+  position: relative;
+  left: 400px;
+}
+  .WebMihandr {
+  position: relative;
+  color:#fff;
+  bottom: 60px;
+  width: 110px;
+  right: -20px;
+  text-align: left;
+}
+
+.GameNews {
+  position: relative;
+  color:#fff;
+  bottom: 85px;
+  width: 100px;
+  right: -20px;
+}
+
+  .icon {
+  position: relative;
+  width: 50px;
+  height: 40px;
+  padding:0 20px;
+  bottom: 148px;
+  right: 60px;
+}
+}
